@@ -10,7 +10,7 @@
     * 이미지에서 얼굴이 차지하는 비중이 클수록 더 정확하게 인식이 가능합니다.
 * 입력 이미지에서 얼굴의 좌우 각도(Yaw)와 상하 각도(Pitch)는 모두 45도 이하여야 합니다.
 * 이미지 최대 크기: 최대 3MB(3,000,000Byte)
-* 지원 이미지 포맷: PNG, JPEG
+* 지원 이미지 형식: PNG, JPEG
 * 이미지 URL에 포트를 직접 지정하는 경우 80, 443, 10000~12000 포트만 사용 가능합니다.
 
 ## API 목차
@@ -18,7 +18,8 @@
 ### 얼굴 스푸핑 감지 API
 
 #### 요청
-* {appKey}와 {secretKey}는 콘솔 상단 URL & Appkey 메뉴에서 확인이 가능합니다.
+
+* {appKey}와 {secretKey}는 콘솔 오른쪽 상단 **URL & Appkey** 버튼을 클릭하여 확인이 가능합니다.
 
 [URI]
 
@@ -170,7 +171,7 @@ curl -X POST 'https://face-liveness.api.nhncloudservice.com/v1.0/appkeys/{appKey
 | -41005 | UnauthorizedAppKeyOrSecretKey | 승인되지 않은 Appkey 또는 SecretKey |
 | -45020 | ImageTooLargeException | 이미지 크기 초과 |
 | -45030 | InvalidImageParameterException | 잘못된 이미지 파라미터. 주로 Base64 인코딩이 잘못된 경우 발생 |
-| -45040 | InvalidImageFormatException | 지원하지 않는 이미지 포맷 |
+| -45040 | InvalidImageFormatException | 지원하지 않는 이미지 형식 |
 | -45050 | InvalidImageURLException | 잘못된 이미지 URL |
 | -45060 | ImageTimeoutError | 이미지 다운로드 시간 초과 |
 | -50000 | InternalServerError | 서버 오류 |

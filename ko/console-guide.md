@@ -1,8 +1,8 @@
 ## AI Service > Face Liveness > 콘솔 사용 가이드
 
-콘솔에서는 얼굴 스푸핑 감지 기능을 테스트할 수 있습니다.
+NHN Cloud 콘솔에서 얼굴 스푸핑 감지 기능을 테스트할 수 있습니다.
 
-콘솔을 사용한 테스트 방법은 다음과 같습니다.
+콘솔을 통한 테스트 방법은 다음과 같습니다.
 
 ## 얼굴 스푸핑 감지
 
@@ -17,5 +17,5 @@
 
 ![spoofing](http://static.toastoven.net/prod_face_liveness/spoofing_console_kr.png)
 
-* [Result] 감지한 얼굴 영역과 스푸핑 감지 여부 및 신뢰도를 표시합니다.
-* [Response] API 호출 시 응답되는 JSON 예시를 표시합니다.
+* **Result** 감지한 얼굴 영역과 스푸핑 감지 여부 및 신뢰도를 표시합니다.
+* **Response** API 호출 시 응답되는 JSON 예시를 표시합니다.
