@@ -15,7 +15,7 @@ NHN Cloudコンソールで顔スプーフィング検出機能をテストで�
 ### 顔スプーフィング検出
 写真をアップロードした後、分析ボタンをクリックすると、画面右側にスプーフィング検出結果が表示されます。
 
-![spoofing](http://static.toastoven.net/prod_face_liveness/spoofing_console_kr.png)
+![spoofing](http://static.toastoven.net/prod_face_liveness/spoofing_console_ja.png)
 
 * **Result** 検出した顔領域とスプーフィング検出の有無と信頼度を表示します。
 * **Response** API呼び出し時にレスポンスされるJSONの例を表示します。
