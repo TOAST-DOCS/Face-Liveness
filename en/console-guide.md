@@ -15,7 +15,7 @@ Photos can be uploaded using one of the three methods:
 ### Face Spoofing Detection
 After uploading the image, click Analyze and the analysis results will appear on the right side of the screen.
 
-![spoofing](http://static.toastoven.net/prod_face_liveness/spoofing_console_kr.png)
+![spoofing](http://static.toastoven.net/prod_face_liveness/spoofing_console_en.png)
 
 * **Result** displays the detected face regions and whether spoofing was detected and confidence values.
 * [Response] displays the JSON example that responds to the API call.
