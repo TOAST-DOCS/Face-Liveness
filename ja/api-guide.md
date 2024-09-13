@@ -74,7 +74,6 @@ curl -X POST 'https://face-liveness.api.nhncloudservice.com/v1.0/appkeys/{appKey
 ``` shell
 curl -X POST 'https://face-liveness.api.nhncloudservice.com/v1.0/appkeys/{appKey}/spoofing' \
 -H 'Authorization: {secretKey}' \
--H 'Content-Type: multipart/form-data' \
 -F imageFile=@image.png
 ```
 
