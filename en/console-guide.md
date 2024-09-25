@@ -18,4 +18,4 @@ After uploading the image, click Analyze and the analysis results will appear on
 ![spoofing](http://static.toastoven.net/prod_face_liveness/spoofing_console_en.png)
 
 * **Result** displays the detected face regions and whether spoofing was detected and confidence values.
-* [Response] displays the JSON example that responds to the API call.
+* **Response** displays the JSON example that responds to the API call.
